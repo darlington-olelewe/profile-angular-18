@@ -1,0 +1,53 @@
+
+<header class="large">
+  <div>Darlington-Olelewe</div>
+  <nav>
+    <a>_hello</a>
+    <a class="active">_about-me</a>
+    <a>_projects</a>
+    <a>_contact-me</a>
+  </nav>
+</header>
+
+
+<header class="small">
+  <div class="name_div">Darlington-Olelewe
+
+    @if(hamburger){
+      <img
+        ngSrc='assets/icons/close.svg'
+        alt="close hamburger icon"
+        height="24" width="24"
+        (click)="toggle()"
+      />
+    }@else{
+      <img
+        ngSrc='assets/icons/menu.svg'
+        alt="close hamburger icon"
+        height="24" width="24"
+        (click)="toggle()"
+      />
+    }
+
+  </div>
+
+
+
+<!--  @else {-->
+<!--    <nav class="nav">-->
+<!--      <a class="active">_hello</a>-->
+<!--    </nav>-->
+<!--  }-->
+
+</header>
+
+<dialog #myDialog>
+  <nav class="nav">
+    <a>_hello</a>
+    <a>_about-me</a>
+    <a>_projects</a>
+    <a>_contact-me</a>
+  </nav>
+</dialog>
+
+
